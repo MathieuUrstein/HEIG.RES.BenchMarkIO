@@ -1,0 +1,17 @@
+DurationInMs,Strategy,FileSizeInBytes,Operation,BlockSize
+32,BlockByBlockWithBufferedStream,10485760,WRITE,500
+36,BlockByBlockWithBufferedStream,10485760,WRITE,50
+56,BlockByBlockWithBufferedStream,10485760,WRITE,5
+90,ByteByByteWithBufferedStream,10485760,WRITE,0
+93,BlockByBlockWithoutBufferedStream,10485760,WRITE,500
+516,BlockByBlockWithoutBufferedStream,10485760,WRITE,50
+4604,BlockByBlockWithoutBufferedStream,10485760,WRITE,5
+21371,ByteByByteWithoutBufferedStream,10485760,WRITE,0
+6,BlockByBlockWithBufferedStream,10485760,READ,500
+8,BlockByBlockWithBufferedStream,10485760,READ,50
+34,BlockByBlockWithBufferedStream,10485760,READ,5
+59,ByteByByteWithBufferedStream,10485760,READ,0
+17,BlockByBlockWithoutBufferedStream,10485760,READ,500
+161,BlockByBlockWithoutBufferedStream,10485760,READ,50
+1646,BlockByBlockWithoutBufferedStream,10485760,READ,5
+7567,ByteByByteWithoutBufferedStream,10485760,READ,0
